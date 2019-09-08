@@ -1,0 +1,23 @@
+.header {
+    grid-area: 1 / 1 / 2 / 13;
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+    grid-area: 2 / 5 / 3 / 9;
+    width: 100px;
+    height: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template: 1fr repeat(3, 3fr) 1fr / repeat(12,1fr) ;
+
+}
+
+.searchbox {
+    grid-area: 3 / 4 / 4 / 10;
+
+}
