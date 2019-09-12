@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    border: 2px blue solid;
+    /*border: 2px blue solid;*/
     height: 50px;
     /*width: 500px;*/
     grid-template-columns: repeat(12,1fr); 
@@ -11,13 +11,38 @@
   .box {
     background-color: beige;
     color: black;
-    border-radius: 5px;
-    border: 2px dodgerblue solid;
+    /*border-radius: 5px;*/
+    /*border: 2px dodgerblue solid;*/
   }
-  
-  .about {
+  .txt {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px; 
+    opacity: 0.75;
+  }
+  ul {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; 
+    opacity: 0.75;
+  }
+  ul2 {
+    display: block;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; 
+    opacity: 0.75;
+  }
+  li {
+    display: inline;
+  }
+  .about {
     grid-area: 1 / 1 / span 1 / span 1;
   }
 
@@ -36,7 +61,7 @@
 }
 .grid2 {
   display: grid;
-  border: 2px blue solid;
+  /*border: 2px blue solid;*/
   height: 50px;
   /*width: 500px;*/
   grid-template-columns: repeat(12,1fr); 
@@ -48,7 +73,7 @@
   background-color: beige;
   color: black;
   border-radius: 5px;
-  border: 2px dodgerblue solid;
+  /*border: 2px dodgerblue solid;*/
 }
 
 .adv {
@@ -73,7 +98,7 @@ grid-area: 1 / 11 / span 1 / span 1;
   }
   .grid3 {
     display: grid;
-    border: 2px blue solid;
+    /*border: 2px blue solid;*/
     height: 50px;
     /*width: 500px;*/
     grid-template-columns: repeat(12,1fr); 
